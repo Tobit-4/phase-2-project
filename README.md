@@ -1,11 +1,11 @@
 ## Phase 2 Project
 
 ## Authors
-Tedd James
-Roy Mbui
-Fidel Koech 
-Kelvina Wambui
-Samuel Karobia 
+Tedd James,
+Roy Mbui,
+Fidel Koech,
+Kelvina Wambui,
+Samuel Karobia.
 
 ## Drive Up
 
