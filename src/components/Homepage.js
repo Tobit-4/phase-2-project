@@ -1,6 +1,8 @@
 import React,{ useState,useEffect } from 'react';
 import NavBar from './NavBar';
 
+// New Render API Server Added
+
 function Homepage() {
   // Set an empty state first
    const [cars, setCars] = useState([]);

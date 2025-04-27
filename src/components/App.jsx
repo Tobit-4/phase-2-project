@@ -10,6 +10,8 @@ import ProtectedRoute from './protectedRoute';
 import Login from './LoginLogout';
 import SignUp from './signUp';
 
+// New Render API Server Added
+
 function App() {
   const [featured, setFeatured] = useState([]);
   const [garage, setGarage] = useState([]);

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CarCard from './CarCard';
 
+// New Render API Server Added
+
 function Inventory({ garage=[], addToGarage, removeFromGarage }) {
   const [allCars, setAllCars] = useState([]);
   const [filteredCars, setFilteredCars] = useState([]);
