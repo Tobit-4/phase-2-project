@@ -76,11 +76,11 @@ _Include a link or screenshot of the deployed app here._
 ### Available Scripts
 | Command           | Description                                  | Source                                 |
 | ----------------- | -------------------------------------------- | -------------------------------------- |
-| `npm run dev`     | Start Vite development server                | `package.json` turn4view0             |
-| `npm run build`   | Create optimized production build in `/dist` | `package.json` turn4view0             |
-| `npm run preview` | Preview production build locally             | `package.json` turn4view0             |
-| `npm run server`  | Launch JSON Server on port 3000             | `package.json` turn4view0             |
-| `npm run lint`    | Lint all source files                        | `package.json` turn4view0             |
+| `npm run dev`     | Start Vite development server                | `package.json`                         |
+| `npm run build`   | Create optimized production build in `/dist` | `package.json`                         |
+| `npm run preview` | Preview production build locally             | `package.json`                         |
+| `npm run server`  | Launch JSON Server on port 3000              | `package.json`                         |
+| `npm run lint`    | Lint all source files                        | `package.json`                         |
 
 ## Project Structure
 ```
