@@ -8,7 +8,7 @@ function Homepage() {
   //Use useEffect to fetch the data from the json-server, instead of hardcoding it
 
   useEffect(() => {
-    fetch(`http://localhost:3000/featured`)
+    fetch(`https://drive-up-server.onrender.com/featured`)
     .then(r => r.json())
     .then(data => setCars(data))
     .catch(error => console.error(error))
@@ -28,7 +28,7 @@ function Homepage() {
     );
   
     // PATCH Request for the updated car
-    fetch(`http://localhost:3000/featured/${carId}`, {
+    fetch(`https://drive-up-server.onrender.com/featured/${carId}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
