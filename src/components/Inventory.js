@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CarCard from './CarCard';
 
+// New Render API Server Added
+
 function Inventory({ garage=[], addToGarage, removeFromGarage }) {
   const [allCars, setAllCars] = useState([]);
   const [filteredCars, setFilteredCars] = useState([]);
@@ -9,7 +11,7 @@ function Inventory({ garage=[], addToGarage, removeFromGarage }) {
   const [maxPrice, setMaxPrice] = useState('');
 
     useEffect(() => {
-      fetch(`http://localhost:3000/inventory`)
+      fetch(`https://drive-up-server.onrender.com/inventory`)
       .then(r => r.json())
       .then(data => setAllCars(data))
       .catch(error => console.error(error))
@@ -58,7 +60,7 @@ function Inventory({ garage=[], addToGarage, removeFromGarage }) {
       );
     
       // PATCH Request for the updated car
-      fetch(`http://localhost:3000/inventory/${carId}`, {
+      fetch(`https://drive-up-server.onrender.com/inventory/${carId}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json"
