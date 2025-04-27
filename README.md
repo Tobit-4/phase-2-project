@@ -124,4 +124,6 @@ This project is licensed under the MIT License. Please look at the [LICENSE](LIC
 ## Contributors
 - **Tobit-4** (Project setup, Vite configuration, routing)citeturn11view0
 - **mbxisbankai (Roy Mbui)** (Components, JSON Server integration)citeturn11view0
+- **Samuel & Kelvins** (CSS and styling)
+- **Tedd James** (Hosting and Deployment)
 
