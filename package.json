@@ -1,9 +1,11 @@
 {
+  "homepage": "https://tobit-4.github.io/phase-2-project.github.io/",
   "name": "auto-world",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "oredeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
