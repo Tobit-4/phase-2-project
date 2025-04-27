@@ -22,5 +22,6 @@ export default defineConfig({
     alias: {
       crypto: 'crypto-browserify'
     }
-  }
+  },
+  base: "phase-2-project.github.io"
 })
