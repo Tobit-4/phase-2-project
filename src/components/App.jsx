@@ -10,6 +10,8 @@ import ProtectedRoute from './protectedRoute';
 import Login from './LoginLogout';
 import SignUp from './signUp';
 
+// New Render API Server Added
+
 function App() {
   const [featured, setFeatured] = useState([]);
   const [garage, setGarage] = useState([]);
@@ -17,14 +19,14 @@ function App() {
 
   // Load featured cars
   useEffect(() => {
-    fetch('http://localhost:3000/featured')
+    fetch('https://drive-up-server.onrender.com/featured')
       .then(r => r.json())
       .then(setFeatured)
       .catch(error => console.error('Error fetching featured:', error));
   }, []);
 //load Inventory cars
   useEffect(() => {
-    fetch('http://localhost:3000/inventory')
+    fetch('https://drive-up-server.onrender.com/inventory')
       .then(r => r.json())
       .then(setAllInventoryCars)
       .catch(error => console.error('Error fetching inventory:', error));
@@ -33,7 +35,7 @@ function App() {
 
   // Load garage cars
   useEffect(() => {
-    fetch('http://localhost:3000/garage')
+    fetch('https://drive-up-server.onrender.com/garage')
       .then(r => r.json())
       .then(setGarage)
       .catch(error => console.error('Error fetching garage:', error));
@@ -54,7 +56,7 @@ function App() {
     // PATCH the backend 
     const endpoint = fromFeatured ? `featured/${id}` : `garage/${car.id}`;
   
-    fetch(`http://localhost:3000/${endpoint}`, {
+    fetch(`https://drive-up-server.onrender.com/${endpoint}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ likes: updated.likes })
@@ -100,7 +102,7 @@ function App() {
       id: Date.now() // Give it a new unique ID for garage
     };
   
-    fetch('http://localhost:3000/garage', {
+    fetch('https://drive-up-server.onrender.com/garage', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(carToSave)
@@ -112,7 +114,7 @@ function App() {
 
   function handleRemoveFromGarage(id) {
     console.log("Trying to remove car ID:", id);
-    fetch(`http://localhost:3000/garage/${id}`, { method: 'DELETE' })
+    fetch(`https://drive-up-server.onrender.com/garage/${id}`, { method: 'DELETE' })
       .then(r => {
         if (!r.ok) throw new Error(`DELETE failed: ${r.status}`);
         setGarage(prev => prev.filter(c => c.id !== id));

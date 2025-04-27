@@ -1,6 +1,8 @@
 import React,{ useState,useEffect } from 'react';
 import NavBar from './NavBar';
 
+// New Render API Server Added
+
 function Homepage() {
   // Set an empty state first
    const [cars, setCars] = useState([]);
@@ -8,7 +10,7 @@ function Homepage() {
   //Use useEffect to fetch the data from the json-server, instead of hardcoding it
 
   useEffect(() => {
-    fetch(`http://localhost:3000/featured`)
+    fetch(`https://drive-up-server.onrender.com/featured`)
     .then(r => r.json())
     .then(data => setCars(data))
     .catch(error => console.error(error))
@@ -28,7 +30,7 @@ function Homepage() {
     );
   
     // PATCH Request for the updated car
-    fetch(`http://localhost:3000/featured/${carId}`, {
+    fetch(`https://drive-up-server.onrender.com/featured/${carId}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
@@ -48,7 +50,7 @@ function Homepage() {
    
   return (
         <div className="homepage">
-          <h2 className='heading'>Welcome to Auto-World</h2>
+          <h2 className='heading'>Welcome to Drive-up</h2>
           <p className="subtitle">Your trusted car dealership</p>
           <h3 className='featured'>Featured Vehicles</h3>
           <div className="featured-section">
