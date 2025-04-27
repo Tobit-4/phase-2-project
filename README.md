@@ -30,28 +30,28 @@ A single-page application built with React and Vite that displays featured cars 
 ---
 
 ## Features
-- **Homepage**: Browse a carousel of featured cars fetched from a mock API.citeturn2view0
-- **Inventory**: View a complete list of available cars, with details like make, model, year, and price.citeturn7view0
-- **Garage Management**: Add or remove cars to your personal garage (persisted in mock backend).citeturn7view0
-- **Routing**: Client-side navigation using React Router (Homepage, Inventory, Garage, About, Login).citeturn8view0
-- **Authentication Context**: Basic login/logout flow managed via React Context.citeturn6view0
+- **Homepage**: Browse a carousel of featured cars fetched from a mock API.
+- **Inventory**: View a complete list of available cars, with details like make, model, year, and price.
+- **Garage Management**: Add or remove cars to your personal garage (persisted in mock backend).
+- **Routing**: Client-side navigation using React Router (Homepage, Inventory, Garage, About, Login).
+- **Authentication Context**: Basic login/logout flow managed via React Context.
 - **Responsive Design**: Mobile-friendly layout with CSS styling.
-- **Linting**: ESLint integrated for code quality.citeturn4view0
+- **Linting**: ESLint integrated for code quality.
 
 ## Demo
 _Include a link or screenshot of the deployed app here._
 
 ## Tech Stack
-- **Framework**: React 19 with Vite build tool.citeturn11view0
-- **Bundler**: Vite 4.x for fast development and optimized production builds.citeturn4view0
+- **Framework**: React 19 with Vite build tool.
+- **Bundler**: Vite 4.x for fast development and optimized production builds.
 - **Routing**: React Router DOM v6.citeturn4view0
-- **Mock API**: JSON Server serving `carData.json`.citeturn4view0
-- **Linting**: ESLint with React Hooks rules.citeturn4view0
+- **Mock API**: JSON Server serving `carData.json`.
+- **Linting**: ESLint with React Hooks rules.
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js v14+ and npm installed on your machine.citeturn4view0
+- Node.js v14+ and npm installed on your machine.
 
 ### Installation
 1. **Clone the repository**:
@@ -85,17 +85,17 @@ _Include a link or screenshot of the deployed app here._
 ## Project Structure
 ```
 phase-2-project/
-├── public/                # Static assets (favicon, index.html, images)citeturn2view0
+├── public/                # Static assets (favicon, index.html, images)
 │   ├── images/            # Car images for featured and inventory
 │   └── index.html         # HTML template
 ├── src/                   # React source codeciteturn3view0
 │   ├── assets/            # Logo and SVG assets
-│   ├── components/        # React components (App, NavBar, CarCard, etc.)citeturn6view0
-│   ├── routes.jsx         # Route definitions using React Routerciteturn8view0
+│   ├── components/        # React components (App, NavBar, CarCard, etc.)
+│   ├── routes.jsx         # Route definitions using React Router
 │   └── main.jsx           # Entry point for React
-├── carData.json           # Mock data for JSON Serverciteturn7view0
-├── package.json           # Project metadata & scriptsciteturn4view0
-├── vite.config.js         # Vite configuration with React pluginciteturn9view0
+├── carData.json           # Mock data for JSON Server
+├── package.json           # Project metadata & scripts
+├── vite.config.js         # Vite configuration with React plugin
 └── eslint.config.js       # ESLint configuration
 ```
 
@@ -126,4 +126,3 @@ This project is licensed under the MIT License. Please look at the [LICENSE](LIC
 - **mbxisbankai (Roy Mbui)** (Components, JSON Server integration)citeturn11view0
 - **Samuel & Kelvins** (CSS and styling)
 - **Tedd James** (Hosting and Deployment)
-
