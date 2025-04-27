@@ -48,7 +48,7 @@ function Homepage() {
    
   return (
         <div className="homepage">
-          <h2 className='heading'>Welcome to Auto-World</h2>
+          <h2 className='heading'>Welcome to Drive-up</h2>
           <p className="subtitle">Your trusted car dealership</p>
           <h3 className='featured'>Featured Vehicles</h3>
           <div className="featured-section">

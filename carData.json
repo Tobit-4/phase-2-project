@@ -290,39 +290,5 @@
       "likes": 0
     }
   ],
-  "garage": [
-    {
-      "id": 1745747232507,
-      "make": "Toyota",
-      "model": "Camry",
-      "year": 2022,
-      "price": 24999,
-      "image": "/images/inventory/toyota-camry.jpg",
-      "isFeatured": false,
-      "likes": 0,
-      "originalId": 1
-    },
-    {
-      "id": 1745747233489,
-      "make": "Fiat",
-      "model": "500",
-      "year": 1945,
-      "price": 22999,
-      "image": "/images/inventory/Fiat 500.jpg",
-      "isFeatured": false,
-      "likes": 0,
-      "originalId": 3
-    },
-    {
-      "id": 1745747236223,
-      "make": "Packward",
-      "model": "Twelve convertible Victoria",
-      "year": 1934,
-      "price": 400000,
-      "image": "/images/inventory/Packward Twelve Convertible Victoria.jpg",
-      "isFeatured": false,
-      "likes": 0,
-      "originalId": 16
-    }
-  ]
+  "garage": []
 }
