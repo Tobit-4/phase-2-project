@@ -44,7 +44,7 @@ _Include a link or screenshot of the deployed app here._
 ## Tech Stack
 - **Framework**: React 19 with Vite build tool.
 - **Bundler**: Vite 4.x for fast development and optimized production builds.
-- **Routing**: React Router DOM v6.citeturn4view0
+- **Routing**: React Router DOM v6.
 - **Mock API**: JSON Server serving `carData.json`.
 - **Linting**: ESLint with React Hooks rules.
 
