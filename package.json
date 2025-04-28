@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Tobit-4/phase-2-project.github.io",
+  "homepage": "https://tobit-4.github.io/phase-2-project.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
