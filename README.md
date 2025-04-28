@@ -38,9 +38,6 @@ A single-page application built with React and Vite that displays featured cars 
 - **Responsive Design**: Mobile-friendly layout with CSS styling.
 - **Linting**: ESLint integrated for code quality.
 
-## Demo
-_Include a link or screenshot of the deployed app here._
-
 ## Tech Stack
 - **Framework**: React 19 with Vite build tool.
 - **Bundler**: Vite 4.x for fast development and optimized production builds.
